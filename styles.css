@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	min-height: 2000px;
+	background: lightblue;
+}
+
+.container {
+	min-height: 400px;
+	overflow: hidden;
+	position: relative;
+	padding: 1em;
+}
+
+.light {
+	background: #333;
+}
+
+.dark {
+	background: #fff;
+}
+
+.blue {
+	background: #28556C;
+}
+
+.default {
+	position: fixed;
+}
+
+.movable {
+	position: absolute;
+}
